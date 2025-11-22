@@ -1,4 +1,72 @@
+/* Page layout */
 body {
-  font-family: sans-serif;
-  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f4f4f7;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+h1 {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+/* Main card (the only div on the page) */
+body > div {
+  background: #ffffff;
+  padding: 24px 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+  max-width: 480px;
+  width: 100%;
+}
+
+/* Labels & inputs */
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #111827;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 1px #6366f133;
+}
+
+/* Button */
+button {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: none;
+  background: #111827;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Result text */
+h2#result {
+  margin-top: 20px;
+  font-size: 18px;
 }
