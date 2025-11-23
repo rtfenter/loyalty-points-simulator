@@ -17,7 +17,7 @@ The simulation is intentionally small and easy to extend.
 
 ---
 
-## 🧩 Features (MVP)
+## Features (MVP)
 The first version includes:
 
 - Input fields for region, amount, and tier  
@@ -26,14 +26,14 @@ The first version includes:
 - Display of redemption value  
 - Simple event flow: `Earn → Convert → Redeem`
 
-## 🖼️ Demo Screenshot
+## Demo Screenshot
 Here’s a quick look at the Loyalty Points Simulator in action:
 <img width="837" height="734" alt="Screenshot 2025-11-22 at 2 43 39 PM" src="https://github.com/user-attachments/assets/d922025d-5151-4633-b4d3-ac341ee9a01b" />
 
 
 ---
 
-## 🔄 Points Event Flow Diagram
+## Points Event Flow Diagram
 
 ```
 [Purchase Amount + Region + Tier]
@@ -57,7 +57,7 @@ Here’s a quick look at the Loyalty Points Simulator in action:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 Loyalty programs appear simple, but real systems require:
 
@@ -71,7 +71,7 @@ This simulator provides a small, understandable way to visualize these concepts 
 
 ---
 
-## 🧠 How This Maps to Real Loyalty Systems
+## How This Maps to Real Loyalty Systems
 
 Even though it's minimal, each step corresponds to real architecture:
 
@@ -101,13 +101,13 @@ https://github.com/rtfenter/loyalty-series
 
 ---
 
-## 🚧 Status  
+## Status  
 MVP implemented and active.  
 This simulator is intentionally lightweight. It focuses only on the core mechanics required to demonstrate loyalty system behavior, not on building a full production engine.
 
 ---
 
-## ▶️ Local Use
+## Local Use
 No installation required.  
 If you'd like to run the simulator locally:
 
