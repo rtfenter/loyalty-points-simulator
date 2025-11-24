@@ -18,7 +18,7 @@ The simulation is intentionally small and easy to extend.
 ---
 
 ## Features (MVP)
-The first version includes:
+The prototype includes:
 
 - Input fields for region, amount, and tier  
 - Basic points calculation (earn rate × amount)  
