@@ -18,7 +18,7 @@ The simulation is intentionally small and easy to extend.
 ---
 
 ## Features (MVP)
-The prototype includes:
+This prototype includes:
 
 - Input fields for region, amount, and tier  
 - Basic points calculation (earn rate × amount)  
@@ -29,11 +29,9 @@ The prototype includes:
 ## Demo Screenshot
 <img width="2696" height="1908" alt="Screenshot 2025-11-23 at 08-34-15 Loyalty Points Simulator" src="https://github.com/user-attachments/assets/962b83df-379c-45c1-b071-1b2dde4f0558" />
 
-
-
 ---
 
-## Points Event Flow Diagram
+## Points Flow Diagram
 
 ```
 [Purchase Amount + Region + Tier]
@@ -97,7 +95,7 @@ This tool is a legible micro-version of how reward systems work under the hood.
 ## Part of the Loyalty Systems Series
 
 Main repo:  
-https://github.com/rtfenter/loyalty-series
+https://github.com/rtfenter/Loyalty-Systems-Series
 
 ---
 
@@ -106,7 +104,6 @@ MVP implemented and active.
 This simulator is intentionally lightweight. It focuses only on the core mechanics required to demonstrate loyalty system behavior, not on building a full production engine.
 
 ---
-
 ## Local Use
 No installation required.  
 If you'd like to run the simulator locally:
@@ -115,5 +112,3 @@ If you'd like to run the simulator locally:
 2. Open `index.html` in your browser  
 
 That's it — everything runs client-side.
-
-
